@@ -75,7 +75,7 @@ function Graph (props){
     const config = {
         data: {
             datasets: [{
-                data: [excount, incount, savcount],
+                data: [savcount, incount, excount],
                 backgroundColor: [
                   'rgb(255, 99, 132)',
                   'rgb(54, 162, 235)',
